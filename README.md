@@ -2,6 +2,8 @@
 
 How to Install packages using pip and virtualenv https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
 
-sudo service postgresql start
+https://djbook.ru/examples/77/
+
+python3 $(path_to_repo)/manage.py makemigrations
 
 python $(path_to_repo)/manage.py runserver
