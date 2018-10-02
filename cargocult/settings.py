@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'cargocult.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cargocult_db',
+        'NAME': 'django_db',
         'USER': 'db_owner',
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
